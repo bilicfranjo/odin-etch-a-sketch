@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+}
+
+.container {
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.cell {
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+
+.buttonSection {
+    margin-top: 20px;
+    display: flex;
+    gap: 26px;
+
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
